@@ -1,0 +1,9 @@
+Git Bash
+git status
+git add --all
+git commit _m "explanation of what you did"
+git push
+git status
+
+use the arrow keys to repeat last command
+
