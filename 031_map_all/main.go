@@ -18,8 +18,10 @@ func main() {
 	m2[5] = "Frank"
 	fmt.Println(m2)
 	fmt.Println("************ Ranging Over the Map ****************")
+	c := 0
 	for k, v := range m2 {
-		fmt.Println(k, v)
+		c++
+		fmt.Println("Iteration is ", c, " Key is ", k, " Value is", v)
 	}
 	fmt.Println("************ Delete an Element from the Map ****************")
 	delete(m2, 3)
